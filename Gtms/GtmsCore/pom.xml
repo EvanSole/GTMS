@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>gtms</groupId>
+		<artifactId>gtms</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>GtmsCore</groupId>
+	<artifactId>GtmsCore</artifactId>
+	<name>GtmsCore</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<finalName>GtmsCore</finalName>
+	</build>
+
+    <!-- 添加依赖 -->
+	<dependencies>
+		<dependency>
+			<groupId>GtmsPOJO</groupId>
+			<artifactId>GtmsPOJO</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>GtmsCommon</groupId>
+			<artifactId>GtmsCommon</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+        <dependency>
+            <groupId>GtmsInterface</groupId>
+            <artifactId>GtmsInterface</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+    </dependencies>
+
+</project>
